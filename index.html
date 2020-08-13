@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>landing page</title>
+    <link href="https://fonts.googleapis.com/css?family=Karma:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+   
+    <!--Header Section-->
+    <header class="header-section clearfix">
+        <div class="row">
+            <div class="head1">
+                <span onclick="openNav()">&#9776;</span>
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close menu</a>
+                    <a onclick="closeNav()" href="#">Food</a>
+                    <a onclick="closeNav()" href="#">About</a>
+                </div>
+            </div>
+            <div class="head3">Mail</div>
+            <div class="head2">My Food</div>
+            
+        </div>  
+    </header>
+
+    <!--Food Section-->
+    <section class="food-section clearfix">
+        <div class="row food1 clearfix">
+            <div class="col span_1_of_4">
+                <img src="img/food1.jpg" alt="Food">
+                <h2>The Perfect Sandwich, A Real NYC Classic</h2>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="col span_1_of_4">
+                <img src="img/food2.jpg" alt="Food">
+                <h2>Let Me Tell You About This Steak</h2>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="col span_1_of_4">
+                <img src="img/food3.jpg" alt="Food">
+                <h2>Cherries, interrupted</h2>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>   
+                <p>What else?</p>
+            </div>
+            <div class="col span_1_of_4">
+                <img src="img/food4.jpg" alt="Food">
+                <h2>Once Again, Robust Wine and Vegetable Pasta</h2>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div class="row food2 clearfix">
+            <div class="col span_1_of_4">
+                <img src="img/food5.jpg" alt="Food">
+                <h2>All I Need Is a Popsicle</h2>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="col span_1_of_4">
+                <img src="img/food6.jpg" alt="Food">
+                <h2>Salmon For Your Skin</h2>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="col span_1_of_4">
+                <img src="img/food7.jpg" alt="Food">
+                <h2>The Perfect Sandwich, A Real Classic</h2>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="col span_1_of_4">
+                <img src="img/food8.jpg" alt="Food">
+                <h2>Le French</h2>
+                <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="pagination clearfix">
+                <a href="#">&laquo;</a>
+                <a class="active" href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about-section clearfix">
+        <div class="row about">
+            <h3>About Me, The Food Man</h3>
+            <img src="img/chef.jpg" alt="Chef">
+            <h5>I am Who I Am!</h5>
+            <p style="font-style:italic;">With Passion For Real, Good Food</p>
+            <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <footer class="footer-section clearfix">
+        <div class="row">
+            <div class="col span_1_of_3 footer">
+                <h2>Footer</h2>
+                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                <p>Design by MoHi</p>
+            </div>
+            <div class="col span_1_of_3 blog">
+                <h2>BLOG POSTS</h2>
+                <div class="blog-all clearfix">
+                <img src="img/workshop.jpg" alt="workshop">
+                    <div class="blog-content clearfix">
+                        <h6>Lorem</h6>
+                        <p>Sed mattis nunc</p>
+                    </div>
+                </div>
+                <div class="blog-all clearfix" style="border-bottom:none;">
+                    <img src="img/gondol.jpg" alt="Gondol">
+                    <div class="blog-content clearfix">
+                        <h6>Ipsum</h6>
+                        <p>Praes tinci sed</p>
+                    </div>    
+                </div>
+            </div>
+            <div class="col span_1_of_3 tag">
+                <h2>POPULAR TAGS</h2>
+                <div class="tag-all">
+                    <ul>
+                        <li class="active">Travel</li>
+                        <li>New York</li>
+                        <li>Dinner</li>
+                        <li> Salmon</li>
+                        <li> France</li>
+                        <li>Drinks</li>
+                        <li>Ideas</li>
+                        <li> Flavors</li>                      
+                        <li>Chicken</li>
+                        <li>Dressing</li>
+                        <li>Fried</li>
+                        <li>Fish</li>
+                        <li>Duck</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/selectivizr.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

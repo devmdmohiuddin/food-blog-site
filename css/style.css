@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Karma', serif;
+    overflow-x: hidden;
+    color: #2F2F2F;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    width: 85%;
+    margin: 0 auto;
+}
+/*********************
+    Header Section
+**********************/
+.header-section{
+    position: sticky;
+    background: #fff;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: auto;
+}
+.header-section .row{
+    width: 90%;
+    margin: auto;
+}
+.head1{
+    float: left;
+    color: #2F2F2F;
+    font-size: 2.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 2rem 1.5rem;
+}
+.head1:hover{
+    background: #ccc;
+}
+.head2{
+    text-align: center;
+    color: #2F2F2F;
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 2rem 1.5rem;
+}
+.head3{
+    float: right;
+    color: #2F2F2F;
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 2rem 1.5rem;
+}
+/*****Toggle Sidebar****/
+.sidebar{
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255);
+   box-shadow: .1rem .4rem .5rem 0 rgb(0, 0, 0,0.2);
+    overflow-x: hidden;
+    width: 0;
+}
+.sidebar a{
+    padding: 2rem 2rem 2rem 3rem;
+    text-decoration: none;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #2F2F2F;
+    display: block;
+    width: 100%;
+}
+.sidebar a:hover{
+    background: #CCCCCC;
+}
+
+/*********************
+    Food Section
+**********************/
+.food-section{
+    padding: 5rem 0;
+    margin-bottom: 6rem;
+}
+.food1{
+    margin-bottom: 3rem;
+}
+.food1 img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.food1 h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    text-align-last: center;
+    line-height: 3.5rem;
+}
+.food1 p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align-last: center;
+    margin-top: 2rem;
+}
+.food2{
+    margin-bottom: 5rem;
+    
+}
+.food2 img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.food2 h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    text-align-last: center;
+    line-height: 3.5rem;
+}
+.food2 p{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align-last: center;
+    margin-top: 2rem;
+}
+
+.pagination{
+    position: relative;
+    left: 40%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.pagination a{
+    font-size: 1.6rem;
+    padding: 1rem 1.6rem;
+    text-decoration: none;
+    color: #2F2F2F;
+    float: left;
+}
+.pagination a:hover{
+    background: #000;
+    color: #fff;
+}
+.pagination .active{
+    background: #000;
+    color: #fff;
+}
+
+
+/*********************
+    About Section
+**********************/
+.about{
+    padding: 7rem 0; 
+    border-top: .1rem solid #eee;
+    border-bottom: .1rem solid #eee;
+}
+.about h3{
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: 500;
+}
+.about img{
+    width: 70%;
+    margin: 3.5rem 0;
+    margin-left: 15%;
+
+}
+.about h5{
+    text-align: center;
+    font-size: 2.1rem;
+}
+.about p{
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+/*********************
+    Footer Section
+**********************/
+.footer-section{
+    padding: 5rem;
+}
+.footer h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 2.5rem;
+}
+.footer p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+.blog h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 2.5rem;
+}
+.blog-all{
+    border-bottom: .1rem solid #CCCCCC;
+    padding: 1.5rem;
+}
+.blog-all:hover{
+    background: #ccc;
+}
+.blog-all img{
+    float: left;
+    width: 15%;
+}
+.blog-content{
+    float: left;
+    margin:.5rem 0 0 1.5rem;
+}
+.blog-content h6{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+.blog-content p{
+    font-size: 1.5rem;
+}
+.tag h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 2.5rem;  
+}
+.tag-all ul{
+    list-style-type: none;;
+}
+ul li{
+    display: inline-block;
+    padding: .4rem .8rem .1rem .8rem;
+    background: #616161;
+    color: #fff;
+    margin: 0 .2rem 2rem 0;
+    font-size: 1.3rem;
+}
+li.active{
+    background: #000;
+    font-size: 1.4rem;
+    padding: .4rem 1rem;
+}
